@@ -1,0 +1,149 @@
+
+/********** Header **************************************************************************************************/
+#Header .social-icon .list-inline-item:not(:last-child) {margin-right:14px;} #Header .social-icon .list-inline-item a{font-size:13px; color:#e1db9a;} #Header .social-icon .list-inline-item a:hover{color:#fff;} 
+/********** Main Banner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:99;display:flex;justify-content:center;align-items:center;margin:auto;left:0;bottom:140px;right:0;}
+.MainBanner .carousel-caption .bnr-txt{width:64%;}
+/********** Services **************************************************************************************************/
+#Services .card{border:0px; border-radius:0px; border-bottom:8px solid #425b4a; box-shadow: 0px 0px 15px rgba(0,0,0,.2);}
+#Services .Slider {position: relative; padding:0px 70px;}  
+#Services .Slider .cycle-prev, #Services .Slider .cycle-next {position:absolute; top:46%; right:0px; z-index:99; cursor:pointer;}
+#Services .Slider .cycle-prev {left:0px; right:auto;} 
+#Services .Slider .slideshow {overflow:hidden;}
+#Services .Slider .slideshow .isItem {white-space:normal; vertical-align:top;} #Services .btn-success{font-size:12px !important; text-transform:none !important;} #Services .card-body {padding: 60px 45px 60px 40px;}
+#Services .card-title {color:#354247; font-size:21px; letter-spacing:-.020em;}  #Services .card-text{font-size:14px;}
+/********** About **************************************************************************************************/
+#About .mrgn {margin-left: 70px;margin-right: 100px;margin-top: 120px;margin-bottom: 120px;} #About .custom-class{margin-top:-82px;} #About{margin-top:120px;} #About .btn{font-size:12px !important; text-transform:none !important;} 
+/******* Journey ***********************************************************************/
+#Journey{position:relative; background:#000; display:block; min-height:758px; z-index:1;display:flex; justify-content:center; align-items:center;}
+#Journey:after {content:''; background:url(../images/journey.jpg) no-repeat top center; opacity:0.40; position:absolute; z-index: -1; top:0; bottom:0; left:0; right:0; background-size:cover;}
+/********** gallery **************************************************************************************************/
+#Gallery p{font-size:14px;} 
+/********** ContactForm **************************************************************************************************/
+#ContactForm {padding:140px 0px 0px 0px;} #ContactForm p{font-size:14px;} #ContactForm .btn{padding:15px 40px !important;}
+#ContactForm .form-group {margin-bottom:10px;}
+#ContactForm .form-control{font-size:12px; border-color:#d1d0c8; border-radius:0; height:62px; color:#4a4a4a; font-weight:400; font-family: 'Open Sans', sans-serif; background:#f9f8f1;}
+#ContactForm .form-control::placeholder{color:#4a4a4a;}
+#ContactForm textarea.form-control{height:207px; padding:18px;}
+textarea:focus ,textarea.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+#ContactForm .bg-img{background:url(../images/contact-bg.png) no-repeat; min-height:246px; margin-bottom:-35px; position:relative;}
+/********** Footer ***************************************************************************************************/
+#Footer{color:#fff; font-size:14px; line-height:2;}
+#Footer a{color:#fff;} #Footer a:hover, #Footer .footer-links a:hover{color:#552e1e !important;} #Footer .social-links a:hover{color:#552e1e !important;}
+#Footer .footer-links a{font-size:19px; color:#fff;}
+#Footer .footer-links .list-inline-item:not(:last-child) {margin-right:54px;}
+#Footer .social-links a{font-size:19px; margin:0px; color:#a5997b;}
+#Footer .social-links .list-inline-item:not(:last-child) {margin-right:21px !important;}
+#Footer .Copytext{color:#fff; font-size:13px;} 
+#Footer .fa-lg{font-size:16px; color:#a5997b;} #Footer .Bor1::after {
+  border-bottom: 1px solid #464646;
+  content: "";
+  display: block;
+  margin: 0 0 0px auto;
+  padding-bottom: 25px;
+  width: 90%;
+}
+
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:100% !important; padding-right:0px; padding-left:0px;margin-right: auto;margin-left: auto;}
+.container{max-width:1610px !important;}
+.container-fluid{max-width:1710px !important;}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(0,0,0,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999;}
+.Logo img {max-height:92px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:50px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Logo {padding-top:18px; padding-bottom:40px;}  .shrink .Logo {padding-top:10px !important; padding-bottom:10px !important;} .shrink .Border{display:none;}
+.Homebnr .carousel-item img {
+    height: 960px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+
+#Header .Border{border-bottom: 1px solid #425b4a;position: absolute;right: 0;top: 100px;left: 0;width: 1000px;margin-left: auto;}
+}
+
+.gx-6 {margin-left:-22px!important;margin-right:-22px!important;}
+.gx-6 div[class^="col"]{padding-left:22px!important;padding-right:22px!important;}
+
+@media (min-width: 1920px) {.MainBanner .carousel-caption .bnr-txt {width: 50% !important;} #About .mrgn {margin-left: 20px !important;} #Gallery h1{margin-left:0px !important;}  #Header .Border {width: 1080px !important;}
+}
+@media (min-width: 1200px) {#ContactForm form{margin-left:145px; margin-right:145px;} 
+
+}
+
+@media (min-width: 1600px) { .MainBanner .carousel-caption .bnr-txt {width: 50% !important;}#Gallery h1{margin-left:70px;} #Header .Border {width: 1020px;}
+
+}
+
+@media (min-width: 1459.98px) and (max-width: 1559.98px) {
+
+}
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {#About .mrgn {margin-left: 70px;margin-right: 50px;margin-top: 50px;margin-bottom: 50px;} #ContactForm form{margin-left:100px; margin-right:100px;} #Header .Border {width: 880px;}
+}
+
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 991.98px) and (max-width: 1199.98px){#Header .Border {width: 750px;} .MainBanner .carousel-caption .fs-80 {font-size: 50px !important;} h3, .h3 {font-size: 30px;} #Services .card-body {padding: 25px;} #About .mrgn {margin:50px 0px;} #About .custom-class {margin-top: -50px;} #About {margin-top: 50px;} #Journey .fs-45 {font-size: 35px !important;} #Journey .fs-35 {font-size: 30px !important;} #Journey {min-height: 558px;} h1, .h1 {font-size: 35px;} #ContactForm {padding: 50px 0px 0px 0px;}  #Footer .footer-links a {
+font-size: 15px;} h2, .h2 {font-size: 30px;} #Footer .Bor1::after {width: 100%; margin:auto;}}
+
+
+/*For example the @include media-breakpoint-only(md) { ... } will result in :*/
+@media (min-width: 768px) and (max-width: 991.98px) {#Header{position:static; background:#000;} .Logo {padding-top:10px; padding-bottom:10px;}.Homebnr .carousel-item img {
+    height: 560px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}.MainBanner .carousel-caption {bottom:100px;}.MainBanner .carousel-caption .fs-80 {font-size: 40px !important;} h3, .h3 {font-size: 30px;} #Services .card-body {padding: 25px;} #About .mrgn {margin:50px 0px;} #About .custom-class {margin-top: -20px;} #About {margin-top: 50px;} #Journey .fs-45 {font-size: 30px !important;} #Journey .fs-35 {font-size: 25px !important;} #Journey .fs-21 {font-size: 18px !important;} #Journey {min-height: 558px;} h1, .h1 {font-size: 35px;} #ContactForm {padding: 50px 0px 0px 0px;}  #Footer .footer-links a {font-size: 15px;} h2, .h2 {font-size: 30px;} #Footer .Bor1::after {width: 100%; margin:auto;} #Gallery .btn.btn-lg {padding: 15px 30px;} #Footer .footer-links .list-inline-item:not(:last-child) {margin-right: 30px;}
+}
+@media (max-width:767.98px) {#Header{position:static; background:#000;} .Logo {padding-top:10px; padding-bottom:10px;}.Homebnr .carousel-item img {
+    height: 560px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}.MainBanner .carousel-caption {bottom:100px;}.MainBanner .carousel-caption .fs-80 {font-size: 30px !important;} .MainBanner .carousel-caption .fs-25 {font-size: 20px !important;} h3, .h3 {font-size: 30px;} #Services .card-body {padding: 25px;} #About .mrgn {margin:10px 0px 30px 0px;} #About .custom-class {margin-top: -20px;} #About {margin-top: 30px;} #Journey .fs-45 {font-size: 30px !important;} #Journey .fs-35 {font-size: 25px !important;} #Journey .fs-21 {font-size: 18px !important;} #Journey {min-height: 558px;} h1, .h1 {font-size: 35px;} #ContactForm {padding: 50px 0px 0px 0px;}  #Footer .footer-links a {font-size: 15px;} h2, .h2 {font-size: 30px;} #Footer .Bor1::after {width: 100%;  margin:auto;}  #Footer .footer-links .list-inline-item:not(:last-child) {margin-right: 30px;} #Services .Slider {padding: 0px 40px;}}
+
+/* Medium devices (tablets, 768px and up) */
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width:575.98px) {.MainBanner .carousel-caption .bnr-txt {width: 100% !important;} .Homebnr .carousel-item img {
+    height: 460px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	} #Journey .fs-45 {font-size: 25px !important;} #ContactForm .bg-img {background: url(../images/contact-bg.png) no-repeat center;}
+/* X-Small devices (portrait phones, less than 576px) */
